@@ -1,5 +1,5 @@
-number = int(input("Bir sayı giriniz:"))
+number = int(input("Please enter a number:"))
 if(number%2 == 0):
-    print("Girilen sayı çifttir...")
+    print("Number is a even...")
 else:
-    print("Girilen sayı tektir...")
+    print("Number is a odd...")
