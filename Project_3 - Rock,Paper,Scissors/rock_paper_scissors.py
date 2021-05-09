@@ -3,7 +3,6 @@ Coded By: Yasin BİRCAN
 Date:     08.05.2021
 '''
 import random
-import keyboard
 user_score = 0
 pc_score = 0
 
