@@ -2,11 +2,11 @@
 Coded By: Yasin BİRCAN
 Date:     08.05.2021
 '''
-name = str(input("Please Enter a Word:"))
-namelist=[]
+word = str(input("Please Enter The Word:"))
+wordlist=[]
 j=1
-for i in range(len(name)):
-    namelist.insert(i,name[i:j])
+for i in range(len(word)):
+    wordlist.insert(i,word[i:j])
     j=j+1
-print("Character Count: " + str(len(name) - namelist.count(" ")))
-print("Word Count: " + str(namelist.count(" ")+1))
+print("Character Count: " + str(len(word) - wordlist.count(" ")))
+print("Word Count: " + str(wordlist.count(" ")+1))
