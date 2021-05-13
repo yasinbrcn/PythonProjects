@@ -3,6 +3,7 @@ Coded By: Yasin BİRCAN
 Date:     08.05.2021
 '''
 word = str(input("Please Enter The Word:"))
+word=word.strip()
 wordlist=[]
 j=1
 for i in range(len(word)):
