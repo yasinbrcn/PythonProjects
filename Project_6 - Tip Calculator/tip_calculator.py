@@ -1,3 +1,8 @@
+'''
+Coded By: Yasin BİRCAN
+Date:     10.05.2021
+'''
+
 staff_name_list = []
 staff_point_list = []
 staff_number=0

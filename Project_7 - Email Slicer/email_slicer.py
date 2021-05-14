@@ -1,3 +1,8 @@
+'''
+Coded By: Yasin BİRCAN
+Date:     11.05.2021
+'''
+
 key=1
 mail_list = []
 username_list = []
