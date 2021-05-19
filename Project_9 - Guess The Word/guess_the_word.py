@@ -14,6 +14,24 @@ def listString(s):
         string += n  
     return string
 
+def checkLetter(r_user_letter):
+    try:
+        r_user_letter = int(r_user_letter)
+        print("Please enter letter only. Not integer value.")
+        r_letter_check = 0
+    except:
+        try:
+            r_user_letter = float(r_user_letter)
+            print("Please enter letter only. Not float value.")
+            r_letter_check = 0
+        except:
+            if len(r_user_letter) == 1:
+                r_letter_check = 1
+            else:
+                print("Please enter one letter only.")
+                r_letter_check = 0
+    return r_letter_check
+
 word_list = ["able","baby","city","heart","world","angel"]
 chosen_word = random.choice(word_list)
 chosen_word_lenght = len(chosen_word)
@@ -29,8 +47,8 @@ else:
 
 while key == 1:
     user_letter = input("Please enter a letter: ")
-    
-    if chosen_word_lenght == 4:
+        
+    if chosen_word_lenght == 4 and checkLetter(user_letter) == 1:
         
         for k in range(chosen_word_lenght):
             if chosen_word[k] == user_letter:
@@ -47,7 +65,7 @@ while key == 1:
             print("Word is: " + chosen_word)
             key = 0
         
-    elif chosen_word_lenght == 5:
+    elif chosen_word_lenght == 5 and checkLetter(user_letter) == 1:
 
         for k in range(chosen_word_lenght):
             if chosen_word[k] == user_letter:
