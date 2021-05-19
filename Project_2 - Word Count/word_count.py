@@ -2,7 +2,7 @@
 Coded By: Yasin BİRCAN
 Date:     08.05.2021
 '''
-word = input("Please enter the sentence:")
+word = input("Please enter the text:")
 try:
     word = int(word)
     print("Please do not enter number.")
