@@ -61,7 +61,7 @@ def checkCom():
 
 while key == 1:
     email = str(input("What is your email address?: "))
-    if checkEmail(email) == 1 and checkCom() == 1:
+    if checkEmail(email) == 1 and checkCom() == 1 and listString(username_list) != "":
         key=0
     else:
         print("Invalid email address. Please enter a valid email address.")
