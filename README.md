@@ -9,3 +9,5 @@ The user is asked to choose 4 different topics. Finally, a story is shown accord
 I did classic rock, paper, scissors game in this project. The game plays between the user(so you) and the PC. The PC makes a random choice. The PC makes a random choice. The user makes a choice using the keyboard keys (1:Rock, 2:Paper, 3:Scissors). This choices repeat 5 times. The scores of players are shown for every choice.
 ## . Project_5 - Guess The Number
 A random number of between 1 and 50 is generated. The user is asked to guess this number. If the user guesses outside this range, an error message will be issued. With this message, the user is directed to the correct range. The user is guided up or down according to the estimated number. Thus, it is ensured to reach the correct number. Finally, the user when it finds the correct number, the congratulatory message and the number of guess are shown.
+## . Project_6 - Palindrome Words
+The pronunciation of palindrome words from left to right and from right to left is the same. This program finds if the entered word whether there is palindrome.
